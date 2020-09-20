@@ -4,4 +4,4 @@
   tasks:
     - name: "Include ping"
       include_role:
-        name: "ping"
+        name: "{{ lookup('env', 'MOLECULE_PROJECT_DIRECTORY') | basename }}"

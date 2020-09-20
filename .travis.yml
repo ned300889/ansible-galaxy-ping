@@ -11,3 +11,5 @@ install:
   # - python3 -m pip install required driver (e.g. docker, shade, boto, apache-libcloud)
 script:
   - molecule test
+notifications:
+  webhooks: https://galaxy.ansible.com/api/v1/notifications/

@@ -1,0 +1,3 @@
+---
+- name: Ping the host, initial test of travis
+  ping: 
